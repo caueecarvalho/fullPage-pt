@@ -1,0 +1,25 @@
+//Colors
+$color1: rgb(49, 49, 49);
+$color2: #fff;
+$color3: #fd97bc56;
+$color4: #8fe6f1c7;
+$color5: #f5966b;
+$color6: #ffc75e46;
+$color7: #7e6179;
+$color8: #535353;
+$color9: rgba(255, 255, 255, 0.397);
+$color10: #36838daf;
+$color11: #50505031;
+$color12: rgba(201, 201, 201, 0.712);
+$color13: rgb(87, 87, 87);
+
+//Functions
+@mixin text1($size, $color) {
+  font: $size "Open Sans Condensed", sans-serif;
+  color: $color;
+}
+
+@mixin text2($size, $color) {
+  font: $size "Homemade Apple", cursive;
+  color: $color;
+}

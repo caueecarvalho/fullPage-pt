@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(253, 229, 213, 0.164);
+}
+
+//Imports
+@import "general";
+@import "nav";
+@import "description";
+@import "types";
+@import "footer";

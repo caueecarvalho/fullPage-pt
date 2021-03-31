@@ -1,0 +1,57 @@
+.types {
+  width: 1100px;
+  height: 300px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+
+  .type1,
+  .type2 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 5px 40px 40px;
+    border-style: dashed;
+    border-color: $color13;
+    padding: 15px;
+    box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
+  }
+
+  .type1 {
+    background-image: url("/Assets/background1.jpg");
+  }
+
+  .type2 {
+    background-image: url("/Assets/background2.jpg");
+  }
+
+  p {
+    @include text2(20px, $color13);
+    margin-top: 25px;
+  }
+  span {
+    @include text1(20px, $color13);
+    text-align: justify;
+    width: 350px;
+    margin-top: 25px;
+  }
+
+  .booking {
+    @include text1(20px, $color13);
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: $color4;
+    padding: 10px;
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    border-style: dashed;
+    border-color: $color2;
+
+    &:hover {
+      background-color: $color3;
+    }
+  }
+}
